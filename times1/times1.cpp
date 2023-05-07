@@ -1,5 +1,5 @@
 ﻿// times1.cpp 
-// программа перевода времени в 24-часовом нприсании
+// программа перевода времени в 24-часовом написании
 // в 12-часов
 #include <iostream>
 #include <string>
@@ -78,8 +78,8 @@ int main()
 
     while (true)
     {
-        cout << "Enter time в 24-hours formate: \n";
-        cout << " hours (on 0 do 23): "; cin >> h;
+        cout << "Enter time 24-hours formate: \n";
+        cout << " hours (from 0 to 23): "; cin >> h;
         if (h > 23)
             return (1);
         cout << " Minutes: "; cin >> m;
